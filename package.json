@@ -1,0 +1,35 @@
+{
+  "name": "wad-genmidi",
+  "version": "0.1.0",
+  "description": "WAD GENMIDI utility",
+  "main": "genmidi.js",
+  "preferGlobal": true,
+  "bin": {
+    "genmidi2json": "cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/doomjs/wad-genmidi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/doomjs/wad-genmidi/issues"
+  },
+  "homepage": "https://github.com/doomjs/wad-genmidi#readme",
+  "keywords": [
+    "doom",
+    "wad",
+    "genmidi",
+    "opl3",
+    "op2"
+  ],
+  "author": "IDDQD",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "dataview-getstring": "^0.1.0",
+    "yargs": "^4.7.1"
+  }
+}
